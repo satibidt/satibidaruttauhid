@@ -1,0 +1,2482 @@
+Buatkan Masterpiece/ Prototype/Blueprint prompt "Apliksasi Prompt AI Generator berbasis website untuk pembuatan soal Enterprise", Lengkap, Detail, Rinci, Profesional, Komprehensive, Rapi, Kongkrit, Teratur, Terorganisir, Terstruktur, dan Cerdas secara menyeluruh untuk semua jenis soal. untuk semua jenjang pendidikan (Paud, MI/SD, MTS/SMP, MA/SMA/SMK, Perguruan Tinggi), untuk semua mata pelajaran, untuk semua fase, untuk semua kelas, dan untuk semua level kesulitan (Low Order Thinking Skills, mudah, sedang, sulit, High Order Thinking Skills), menurut level kognitif Taxonomy Bloom (level 1, 2, 3, 4, 5, dan 6) dan Taxonomy Solo (level 1, 2, 3, 4, dan 5) sesuai Kurikulum Merdeka berbasis mendalam Kementerian Pendidikan Dasar Dan Menengah dan ‘CINTA’ berbasis Holistik dan Ekoteologi Kementerian Agama Republik Indonesia atau Kurikulum yang berlaku secara Nasional maupun Internasional. Hasilkan output format txt, word, pdf, excel.
+Berkarakter modern kekinian yang futuristik. Berikan pilihan Bahasa Indonesia atau English, pilihan warna pencahayaan Terang atau Gelap, Sidebar Dashboard posisi disebelah kiri, tambahkan menu log out, pembuat aplikasi ini adalah SATIBI, S.Pd., M.Pd., pastikan aplikasi ini berjalan/bekerja normal sesuai fungsinya tanpa kendala apapun saat digunakan/pakai. Opsi soal agar pengecoh tidak mengulangi kata kalimat yang sama, panjang pendek masing masing opsi relatif sama atau hampir sama, berikan menu riwayat pembuatan soal agar tidak terjadi pengulangan. Satu dialog/teks dipakai untuk 3-5 item soal tidak lebih. penulisan soal berdasarkan dan berstandar peraturan Nasional atau Internasional yang berlaku seperti Sisjian, Cambridge, dan lainnya. Berikan menu tambahan untuk menambahkan atau menghasilkan gambar, grafik, diagram, infografis, peta, lokasi, table, ilustrasi, lukisan, ayat-ayat Al-Qur’an dan Al-Hadits. Pastikan dapat mengimpor file dalam bentuk word, pdf, image, txt, ppt dan file lainnya yang mendukung pembuatan soal.
+
+
+# MASTERPIECE MASTER PROMPT
+# EDUQUEST AI — ENTERPRISE ASSESSMENT STUDIO
+## AI-Powered Assessment, Question Generation, Multimedia & Educational Document Intelligence Platform
+
+**Application Name:** EDUQUEST AI — Enterprise Assessment Studio  
+**Application Type:** Enterprise-Grade AI-Powered Web Application  
+**Application Category:** Educational Assessment, Question Generation, Prompt Engineering, Multimedia Learning Resources, Document Intelligence  
+**Application Creator:** Ahmad Budi Leksono  
+**Primary UI Languages:** Bahasa Indonesia and English  
+**Theme:** Futuristic, Modern, Professional, Responsive, Accessible  
+**Primary Navigation:** Persistent left sidebar dashboard  
+**Export Formats:** TXT, editable DOCX, PDF, XLSX, and other formats where supported  
+**Target Users:** Teachers, lecturers, students where appropriate, assessment developers, educational institutions, curriculum specialists, researchers, training providers, and professional certification organizations.
+
+---
+
+# PART 1 — ROLE, MISSION, AND CORE DIRECTIVES
+
+## 1.1 Role of the AI Development Agent
+
+Act as a multidisciplinary team consisting of:
+
+1. Senior Enterprise Software Architect.
+2. Senior Full-Stack Web Developer.
+3. AI/LLM Integration Engineer.
+4. Educational Assessment and Psychometrics Specialist.
+5. Indonesian National Curriculum Specialist.
+6. International Curriculum and Assessment Specialist.
+7. Educational Measurement and Evaluation Expert.
+8. Bloom's Revised Taxonomy and SOLO Taxonomy Specialist.
+9. Instructional Designer and Learning Experience Designer.
+10. Multimedia and Information Visualization Designer.
+11. Document Processing, OCR, and Data Extraction Engineer.
+12. Database and Information Security Engineer.
+13. Quality Assurance and Automated Testing Engineer.
+14. Accessibility and Responsive UI/UX Specialist.
+15. Technical Documentation and Deployment Engineer.
+
+Design, develop, test, document, and prepare a functional enterprise-grade web application named **EDUQUEST AI — Enterprise Assessment Studio**.
+
+The application must support the complete workflow from educational metadata input, learning objective formulation, assessment blueprint creation, AI prompt generation, question generation, quality validation, multimedia integration, document import, question bank management, scoring, and export.
+
+Do not deliver merely a landing page, static prototype, design mockup, or nonfunctional dashboard. Deliver a working application with functional navigation, connected forms, data persistence, real processing workflows, validation, error handling, and verified export functionality.
+
+## 1.2 Primary Mission
+
+Build an intelligent, modular, scalable, secure, and user-friendly assessment platform that can:
+
+- Generate structured AI prompts for educational assessment.
+- Generate questions and assessment instruments.
+- Support all educational levels and relevant subject areas.
+- Align assessments with learning objectives and selected curricula.
+- Map questions to Bloom's Revised Taxonomy and SOLO Taxonomy.
+- Distinguish cognitive demand, difficulty, and question format.
+- Generate and manage textual and multimedia stimuli.
+- Import, analyze, and extract relevant content from user documents.
+- Detect repeated or substantially similar questions.
+- Maintain complete question-generation histories.
+- Generate answer keys, explanations, scoring rubrics, and assessment blueprints.
+- Export editable documents and structured datasets.
+- Provide institutional collaboration, administration, and auditability where enabled.
+
+## 1.3 Non-Negotiable Development Rules
+
+1. Do not fabricate curriculum standards, regulations, official references, religious quotations, source citations, or verification results.
+2. Clearly distinguish AI-generated suggestions from officially published curriculum documents.
+3. Never report an export, upload, generation, or save operation as successful unless the operation actually succeeds.
+4. Never expose AI API keys, database service-role keys, passwords, or other secrets in frontend code.
+5. Never silently discard imported content or change the intended meaning of source materials.
+6. Preserve the relationship between questions, stimuli, answer keys, explanations, and scoring rubrics.
+7. Never claim that automated quality checks guarantee absolute correctness.
+8. Provide clear loading, success, warning, empty, and error states.
+9. Make unsupported features visibly unavailable rather than displaying fake functionality.
+10. Build in incremental, testable stages and maintain technical documentation.
+
+---
+
+# PART 2 — EDUCATIONAL SCOPE AND CURRICULUM CONFIGURATION
+
+## 2.1 Educational Levels
+
+Provide configurable support for:
+
+- PAUD and early childhood education.
+- TK and kindergarten.
+- MI and SD.
+- MTs and SMP.
+- MA, SMA, SMK, and MAK.
+- Special education and inclusive education.
+- Diploma and vocational higher education.
+- Undergraduate, master's, and doctoral education.
+- Nonformal education, courses, training, and adult learning.
+- Professional development and competency certification.
+- Other educational levels configured by authorized administrators.
+
+Do not force every educational level into the same curriculum structure. Use conditional fields, configurable grade ranges, and appropriate learning terminology.
+
+## 2.2 Subject Areas
+
+Support all relevant subjects, disciplines, and interdisciplinary learning areas, including:
+
+- Bahasa Indonesia and other languages.
+- English and foreign languages.
+- Mathematics.
+- Natural Sciences and integrated science.
+- Social Sciences.
+- Pancasila Education and civics.
+- History and geography.
+- Islamic Religious Education and other religious education where applicable.
+- Qur'an and Hadith.
+- Fiqh, Aqidah Akhlak, and Islamic Cultural History.
+- Informatics and computer science.
+- Technology, engineering, and robotics.
+- Arts, music, and visual arts.
+- Physical education, sports, and health education.
+- Economics, accounting, business, and entrepreneurship.
+- Vocational and technical subjects.
+- Agriculture, environment, and sustainability.
+- Biology, chemistry, and physics.
+- Research methods and higher education disciplines.
+- Interdisciplinary and locally contextualized learning.
+
+Allow administrators to add, edit, categorize, and archive custom subjects.
+
+## 2.3 National Curriculum Support
+
+Provide configurable curriculum profiles for applicable Indonesian national frameworks, including:
+
+- Kurikulum Merdeka.
+- Relevant learning outcomes and Capaian Pembelajaran (CP).
+- Tujuan Pembelajaran (TP).
+- Alur Tujuan Pembelajaran (ATP).
+- Relevant phase, grade, semester, and subject structures.
+- Deep Learning or Pembelajaran Mendalam.
+- Mindful Learning.
+- Meaningful Learning.
+- Joyful Learning.
+- Relevant assessment principles and officially applicable assessment guidance.
+- Religious education frameworks administered by the Ministry of Religious Affairs.
+- CINTA-oriented holistic learning and ecotheology where appropriate to the subject, institution, and learning objective.
+
+The platform must support curriculum profiles without assuming that one curriculum or terminology applies to every educational level.
+
+### Official Curriculum Verification
+
+When a user selects an official curriculum:
+
+1. Display the curriculum name, version or publication date when verified, and source.
+2. Use official documents or trusted institutional sources whenever available.
+3. Allow authorized users to upload curriculum documents.
+4. Provide search and selection for verified CP, TP, ATP, standards, and indicators where an appropriate dataset is available.
+5. Distinguish verified imported standards from AI-generated recommendations.
+6. Include the source and verification status for each standard.
+7. Flag unavailable, outdated, ambiguous, or unverified references.
+8. Never invent official CP, TP, regulation numbers, or quotations.
+
+If an official source is not connected, the platform must explain the limitation and allow the user to provide the relevant document.
+
+## 2.4 CINTA, Holistic Learning, and Ecotheology
+
+Provide optional configurable educational design dimensions associated with CINTA-based holistic learning and ecotheology.
+
+Where relevant, enable learning experiences that integrate:
+
+- Intellectual development.
+- Spiritual and ethical reflection.
+- Emotional and social development.
+- Character and responsibility.
+- Environmental awareness.
+- Care for living beings and natural resources.
+- Local culture and community context.
+- Responsible relationships between humans, nature, and society.
+
+Do not force ecotheology into unrelated technical or academic questions. The user must be able to enable, disable, or adapt these dimensions according to the curriculum and intended learning outcome.
+
+For Islamic educational content, preserve the distinction between Qur'anic text, Hadith text, translation, interpretation, and AI-generated educational commentary.
+
+## 2.5 International Curriculum Support
+
+Provide configurable profiles for:
+
+- Cambridge International.
+- International Baccalaureate (IB).
+- Pearson Edexcel.
+- Australian Curriculum.
+- Common Core State Standards where applicable.
+- Other verified national curricula.
+- International language proficiency frameworks where relevant.
+- Professional and competency-based standards.
+- Institution-specific curricula.
+
+Do not imply official affiliation, certification, endorsement, or compliance without evidence.
+
+For standards-based generation, show the selected framework, applicable level, reference identifier where verified, and the source used.
+
+## 2.6 Assessment Standards and Regulatory References
+
+Create a **Standards & Compliance Library**.
+
+Support source records containing:
+
+- Standard or regulation title.
+- Issuing institution.
+- Jurisdiction.
+- Publication date.
+- Version or amendment.
+- Official source URL or uploaded document.
+- Applicable educational level.
+- Subject or assessment domain.
+- Verification status.
+- Last-reviewed date.
+- Notes on interpretation.
+
+Support recognized assessment-design principles and relevant standards such as Cambridge assessment guidance, applicable national assessment regulations, and other verified frameworks.
+
+If a term such as “SISJIAN” is entered, first determine its intended meaning and verify the relevant reference. Do not automatically assume that an ambiguous term identifies a particular regulation or official standard.
+
+Use the following statuses:
+
+- Verified official source.
+- Imported source awaiting review.
+- Secondary reference.
+- AI-suggested mapping.
+- Unverified or outdated.
+- Not applicable.
+
+Compliance reports must explain which checks were performed and which require expert review.
+
+---
+
+# PART 3 — TAXONOMY, COGNITIVE DEMAND, AND DIFFICULTY
+
+## 3.1 Bloom's Revised Taxonomy
+
+Implement the six cognitive levels:
+
+1. **C1 — Remember:** Retrieve facts, terms, definitions, and basic information.
+2. **C2 — Understand:** Explain, summarize, classify, interpret, and exemplify.
+3. **C3 — Apply:** Use concepts, rules, procedures, or knowledge in a situation.
+4. **C4 — Analyze:** Differentiate, organize, compare, infer, and identify relationships.
+5. **C5 — Evaluate:** Judge, justify, critique, and make evidence-based decisions.
+6. **C6 — Create:** Design, formulate, produce, construct, or develop a solution.
+
+For every generated question, store:
+
+- Selected Bloom level.
+- Cognitive operation being assessed.
+- Evidence that the question requires that operation.
+- Expected student response.
+- Rationale for the classification.
+- Confidence or review status.
+
+Do not classify a question as C4, C5, or C6 merely because it contains a long text or difficult vocabulary.
+
+## 3.2 SOLO Taxonomy
+
+Implement five SOLO levels:
+
+1. **Prestructural:** The response does not demonstrate a relevant understanding.
+2. **Unistructural:** The response uses one relevant aspect.
+3. **Multistructural:** The response identifies several relevant aspects without integrating them.
+4. **Relational:** The response connects multiple aspects into a coherent explanation.
+5. **Extended Abstract:** The response generalizes, theorizes, or transfers understanding to new contexts.
+
+Use these levels as a learning-design and response-quality framework. They are not automatically interchangeable with Bloom's levels.
+
+For each question, provide a rationale explaining the expected evidence of learning at the selected SOLO level.
+
+Where appropriate, provide SOLO-based scoring descriptors for open-ended questions.
+
+## 3.3 Difficulty Classification
+
+Implement a separate difficulty selector:
+
+- Very Easy.
+- Easy.
+- Medium.
+- Difficult.
+- Very Difficult.
+
+Also provide a familiar four-category view:
+
+- Mudah.
+- Sedang.
+- Sulit.
+- Sangat Sulit.
+
+The difficulty level must be configurable and mapped transparently to the selected labels.
+
+## 3.4 LOTS and HOTS
+
+Provide a separate cognitive-demand classification:
+
+- LOTS — Lower Order Thinking Skills.
+- HOTS — Higher Order Thinking Skills.
+- Mixed or context-dependent, when appropriate.
+
+Do not equate HOTS with “difficult” automatically. A difficult recall question can still be LOTS, while a well-scaffolded analysis question may be HOTS without excessive reading difficulty.
+
+## 3.5 Taxonomy Mapping Interface
+
+Create a matrix that allows users to select:
+
+- Bloom level.
+- SOLO level.
+- Difficulty.
+- LOTS/HOTS.
+- Learning objective.
+- Assessment purpose.
+- Question type.
+
+Allow mixed distributions, such as:
+
+- 20% C1–C2.
+- 30% C3.
+- 30% C4.
+- 15% C5.
+- 5% C6.
+
+Treat these as user-defined examples, not mandatory universal distributions.
+
+Validate requested distributions before generation and show the expected item count per category.
+
+---
+
+# PART 4 — COMPLETE QUESTION-TYPE LIBRARY
+
+Build a categorized, searchable, extensible question-type library.
+
+## 4.1 Objective Questions
+
+Support:
+
+- Multiple-choice single answer.
+- Multiple-select questions.
+- True/false.
+- Yes/no.
+- Matching.
+- Classification.
+- Sequencing and ordering.
+- Odd-one-out.
+- Error identification.
+- Cloze tests.
+- Gap filling.
+- Sentence completion.
+- Word completion.
+- Labeling diagrams.
+- Table completion.
+- Graph interpretation.
+- Image interpretation.
+- Map interpretation.
+- Data interpretation.
+- Assertion and reason, where appropriate.
+- Statement evaluation.
+- Correct/incorrect statement selection.
+- Case-based objective questions.
+
+## 4.2 Constructed-Response Questions
+
+Support:
+
+- Short-answer questions.
+- Extended-response questions.
+- Essay questions.
+- Explanation questions.
+- Justification questions.
+- Comparison questions.
+- Analysis questions.
+- Evaluation questions.
+- Problem-solving questions.
+- Proofs and derivations.
+- Structured calculations.
+- Case studies.
+- Scenario-based questions.
+- Research-based questions.
+- Reflection questions.
+- Design and creation tasks.
+
+## 4.3 Language Assessment
+
+Support assessment of:
+
+- Listening.
+- Speaking.
+- Reading.
+- Writing.
+- Vocabulary.
+- Grammar.
+- Pronunciation.
+- Functional expressions.
+- Dialogue comprehension.
+- Literary and nonliterary texts.
+- Descriptive, recount, narrative, procedure, report, exposition, and other text genres.
+
+Include configurable rubrics, performance descriptors, source audio or transcripts, and appropriate language proficiency references where verified.
+
+## 4.4 Practical and Performance Assessment
+
+Support:
+
+- Practical tests.
+- Laboratory tasks.
+- Demonstrations.
+- Projects.
+- Portfolios.
+- Presentations.
+- Oral examinations.
+- Interviews.
+- Role-play.
+- Simulations.
+- Performance tasks.
+- Observation checklists.
+- Product assessment.
+- Process assessment.
+- Competency demonstrations.
+- Workplace and vocational assessments.
+
+## 4.5 Specialized Formats
+
+Allow extensible question formats for:
+
+- Mathematical problem sets.
+- Scientific investigations.
+- Coding and programming tasks.
+- Debugging exercises.
+- Data-analysis assignments.
+- Clinical or professional cases where appropriate.
+- Research-method questions.
+- Interdisciplinary projects.
+- Scenario-based ethical reasoning.
+- Adaptive question sequences.
+
+The question-type library must support configuration rather than hard-coded restrictions.
+
+---
+
+# PART 5 — ENTERPRISE USER INTERFACE AND DESIGN SYSTEM
+
+## 5.1 Visual Identity
+
+Create a premium, futuristic, professional interface using:
+
+- Clean enterprise dashboard design.
+- Balanced spacing and consistent typography.
+- Restrained gradients and subtle luminous accents.
+- Clear visual hierarchy.
+- Rounded panels with appropriate contrast.
+- Subtle transitions and micro-interactions.
+- Carefully designed icons.
+- Professional data tables and charts.
+- Consistent form controls.
+- Responsive layouts for desktop, laptop, tablet, and mobile.
+
+Avoid excessive visual effects that reduce readability, accessibility, or performance.
+
+## 5.2 Main Application Layout
+
+Implement a persistent left sidebar on desktop.
+
+Required sidebar menus:
+
+1. Dashboard.
+2. New Assessment.
+3. AI Prompt Generator.
+4. Question Generator.
+5. Blueprint & Kisi-Kisi.
+6. Curriculum & Learning Objectives.
+7. Multimedia Studio.
+8. Universal Import Center.
+9. Question Bank.
+10. Stimulus Library.
+11. Rubric & Scoring Studio.
+12. Quality Assurance.
+13. Generation History.
+14. Duplicate Detection.
+15. Assessment Analytics.
+16. Export Center.
+17. Collaboration & Approval.
+18. Standards Library.
+19. AI Provider Settings.
+20. User Preferences.
+21. Help & Documentation.
+22. Administration, when authorized.
+23. Log Out.
+
+Use role-based visibility for administrative and institutional functions.
+
+On mobile, convert the sidebar into a functional drawer or accessible navigation menu.
+
+## 5.3 Header and Global Controls
+
+Include:
+
+- Application logo and name.
+- Current workspace or institution.
+- Search.
+- Notifications.
+- Help.
+- User profile.
+- Language switcher.
+- Light/Dark theme switcher.
+- Optional compact/expanded sidebar.
+- Current task status when applicable.
+
+## 5.4 Language Switching
+
+Provide Bahasa Indonesia and English for the application interface.
+
+Requirements:
+
+- All navigation labels must switch.
+- Forms, buttons, validation messages, notifications, and help text must switch.
+- User-generated questions must have a separate content-language selector.
+- Changing the interface language must not automatically translate saved questions.
+- Store user language preferences.
+- Provide a mechanism for adding further UI languages in the future.
+
+## 5.5 Theme Switching
+
+Provide Light and Dark modes.
+
+Requirements:
+
+- Maintain readable contrast.
+- Persist the selected theme.
+- Apply the theme consistently across dialogs, tables, forms, charts, and generated-content previews.
+- Respect system preferences when the user has not selected a theme.
+- Avoid color-only indicators for critical states.
+
+## 5.6 Accessibility
+
+Target WCAG 2.2 AA principles where applicable.
+
+Include:
+
+- Keyboard navigation.
+- Visible focus indicators.
+- Accessible form labels.
+- Screen-reader-friendly controls.
+- Sufficient color contrast.
+- Reduced-motion support.
+- Responsive zoom and text sizing.
+- Accessible chart summaries.
+- Alternative text for meaningful images.
+- Error messages associated with relevant fields.
+
+## 5.7 Creator Attribution
+
+Display the following attribution in the About page and application footer:
+
+**Created by Ahmad Budi Leksono**
+
+Keep the attribution configurable for authorized deployments while preserving the original creator attribution unless explicitly reconfigured by an authorized owner.
+
+---
+
+# PART 6 — DASHBOARD AND WORKSPACE MANAGEMENT
+
+## 6.1 Dashboard Overview
+
+Display real, database-backed information such as:
+
+- Total assessments.
+- Total generated questions.
+- Questions awaiting review.
+- Approved questions.
+- Duplicate candidates.
+- Imported files.
+- Saved prompts.
+- Recent activities.
+- Draft assessments.
+- Export history.
+- Active projects.
+- Processing jobs.
+- AI usage and estimated cost, if metering is configured.
+
+Do not show fabricated statistics. Use genuine stored data or clearly marked empty states.
+
+## 6.2 Workspace Management
+
+Support:
+
+- Personal workspace.
+- Institution or organization workspace.
+- Assessment projects.
+- Folders and tags.
+- Draft, review, approved, archived, and published states.
+- Shared projects where authorized.
+- Project-level permissions.
+- Search and filtering.
+- Sorting and pagination.
+
+## 6.3 Assessment Workflow
+
+Use the following workflow:
+
+1. Create a project.
+2. Enter educational metadata.
+3. Select the curriculum and standards.
+4. Select or generate learning objectives.
+5. Create the assessment blueprint.
+6. Select question formats and distribution.
+7. Import or generate stimuli.
+8. Generate the AI prompt.
+9. Generate candidate questions.
+10. Validate and review questions.
+11. Detect duplicates.
+12. Revise and approve.
+13. Generate answer keys and rubrics.
+14. Preview the complete assessment.
+15. Export or publish.
+16. Store the version and audit history.
+
+Allow users to save drafts and resume later.
+
+---
+
+# PART 7 — INTELLIGENT ASSESSMENT CONFIGURATION
+
+Create a structured, step-by-step assessment wizard.
+
+## 7.1 General Metadata
+
+Required or configurable fields:
+
+- Assessment title.
+- Assessment code or ID.
+- Educational institution.
+- Educational level.
+- Curriculum.
+- Grade or year.
+- Phase or level.
+- Subject.
+- Topic.
+- Subtopic.
+- Semester or term.
+- Academic year.
+- Language of questions.
+- Assessment purpose.
+- Assessment type.
+- Student audience.
+- Target competency.
+- Learning objective.
+- Total question count.
+- Estimated duration.
+- Scoring model.
+- Difficulty distribution.
+- Bloom distribution.
+- SOLO distribution.
+- LOTS/HOTS distribution.
+- Question-format distribution.
+- Required output formats.
+
+Use conditional fields according to the selected educational context.
+
+## 7.2 Assessment Purpose
+
+Support:
+
+- Diagnostic assessment.
+- Formative assessment.
+- Summative assessment.
+- Placement assessment.
+- Progress monitoring.
+- Remedial assessment.
+- Enrichment assessment.
+- Performance assessment.
+- Competency assessment.
+- Certification assessment.
+- Research assessment.
+- Self-assessment.
+- Peer assessment.
+- Other configurable purposes.
+
+## 7.3 Learning Objectives
+
+Allow users to:
+
+- Enter CP, TP, ATP, competencies, indicators, or learning outcomes.
+- Upload supporting documents.
+- Search verified available standards.
+- Generate AI-suggested objectives.
+- Edit and approve generated objectives.
+- Link questions to one or more objectives.
+- Detect objectives that are not assessed.
+- Identify questions with no clear objective.
+- Generate an objective-to-question coverage matrix.
+
+AI-generated objectives must be labeled as suggestions until reviewed and approved.
+
+## 7.4 AI Generate Points / Generate AI Poin
+
+Implement a dedicated **Generate AI Poin** feature.
+
+Inputs:
+
+- Educational level.
+- Subject.
+- Topic.
+- Curriculum.
+- Learning context.
+- Desired competency.
+- Assessment purpose.
+- Selected cognitive demand.
+- Available source materials.
+
+Outputs:
+
+- Suggested key concepts.
+- Learning-objective candidates.
+- Measurable indicators.
+- Important subtopics.
+- Expected evidence of learning.
+- Possible misconceptions.
+- Suggested assessment formats.
+- Possible stimuli.
+- Suggested Bloom and SOLO mappings.
+- Potential local, cultural, social, or environmental contexts where relevant.
+
+Allow each generated point to be accepted, edited, regenerated, or rejected.
+
+Do not replace the user's approved learning objectives without explicit permission.
+
+---
+
+# PART 8 — ASSESSMENT BLUEPRINT AND KISI-KISI STUDIO
+
+Create a dedicated visual and editable blueprint builder.
+
+## 8.1 Blueprint Fields
+
+Include:
+
+- Item number.
+- Learning objective.
+- Competency or indicator.
+- Topic and subtopic.
+- Question type.
+- Stimulus ID.
+- Bloom level.
+- SOLO level.
+- LOTS/HOTS.
+- Difficulty.
+- Number of items.
+- Estimated duration.
+- Score weight.
+- Answer format.
+- Scoring method.
+- Source reference.
+- Validation status.
+
+## 8.2 Blueprint Features
+
+Provide:
+
+- Editable tables.
+- Drag-and-drop ordering where practical.
+- Automatic item numbering.
+- Distribution charts.
+- Objective coverage.
+- Taxonomy coverage.
+- Difficulty balance.
+- Score-total validation.
+- Question-count validation.
+- Blueprint completeness checks.
+- Import and export.
+- Blueprint version history.
+
+Allow a user to revise the blueprint before generating questions.
+
+If the requested blueprint is inconsistent, explain the issue and suggest a correction rather than silently changing the design.
+
+---
+
+# PART 9 — AI PROMPT GENERATOR ENGINE
+
+## 9.1 Prompt Builder
+
+Build a structured prompt generator that converts assessment settings into a high-quality prompt for a configured AI model.
+
+Generated prompts must include:
+
+1. Expert role and responsibilities.
+2. Educational metadata.
+3. Curriculum and source constraints.
+4. Learning objectives.
+5. Blueprint and item distribution.
+6. Question-type requirements.
+7. Bloom and SOLO mappings.
+8. LOTS/HOTS and difficulty.
+9. Language and audience.
+10. Stimulus requirements.
+11. Answer-key requirements.
+12. Explanation requirements.
+13. Distractor-quality rules.
+14. Scoring and rubric requirements.
+15. Validation criteria.
+16. Output schema.
+17. Source and citation requirements.
+18. Anti-duplication requirements.
+19. Human-review requirements.
+20. Final output instructions.
+
+## 9.2 Prompt Output Options
+
+Allow users to:
+
+- Preview the generated prompt.
+- Edit the prompt.
+- Copy to clipboard.
+- Save as a reusable template.
+- Duplicate a template.
+- Compare prompt versions.
+- Export the prompt as TXT, DOCX, PDF, or another supported format.
+- Send the prompt to a configured AI provider.
+- Regenerate only a selected section.
+- Lock selected prompt sections.
+- Add institution-specific instructions.
+- Save preferred generation settings.
+
+## 9.3 AI Provider Architecture
+
+Implement a provider-adapter pattern.
+
+Support configurable AI providers through secure server-side integrations.
+
+Features may include:
+
+- Provider selection.
+- Model selection.
+- API configuration.
+- Request timeout.
+- Retry policy.
+- Token and usage tracking.
+- Cost estimation where pricing information is available.
+- Generation logs.
+- Provider health checks.
+- Fallback provider configuration.
+- Structured-output validation.
+
+Do not hard-code assumptions about a provider's model names, pricing, or capabilities.
+
+When no provider is configured, allow prompt creation and export without pretending that live AI generation is available.
+
+## 9.4 Structured AI Output
+
+Where supported, request schema-constrained output for:
+
+- Questions.
+- Options.
+- Correct answers.
+- Explanations.
+- Distractor rationales.
+- Taxonomy mappings.
+- Rubrics.
+- Blueprint references.
+- Stimulus references.
+- Source references.
+- Validation warnings.
+
+Validate every response before saving it to the database.
+
+If the response is malformed, retry safely or present a recoverable error. Never silently accept corrupted structured output.
+
+---
+
+# PART 10 — QUESTION GENERATOR ENGINE
+
+## 10.1 Generation Modes
+
+Support:
+
+- Generate a complete assessment.
+- Generate a specified number of questions.
+- Generate questions for selected objectives.
+- Generate by Bloom level.
+- Generate by SOLO level.
+- Generate by difficulty.
+- Generate by LOTS/HOTS.
+- Generate by question type.
+- Generate from uploaded documents.
+- Generate from a selected stimulus.
+- Generate from an image, graph, diagram, map, or table.
+- Generate from a teacher-provided prompt.
+- Generate parallel forms of an assessment.
+- Regenerate selected questions only.
+- Generate remedial and enrichment versions.
+
+## 10.2 Question Record Structure
+
+Each question should contain:
+
+- Unique question ID.
+- Assessment ID.
+- Version.
+- Question number.
+- Question type.
+- Question text.
+- Content language.
+- Educational level.
+- Subject and topic.
+- Learning-objective references.
+- Bloom level.
+- SOLO level.
+- Difficulty.
+- LOTS/HOTS classification.
+- Stimulus ID, if applicable.
+- Options, where applicable.
+- Correct answer or scoring criteria.
+- Explanation.
+- Distractor rationales, where applicable.
+- Score weight.
+- Estimated response time.
+- Source references.
+- Media references.
+- Validation status.
+- Review comments.
+- Creation timestamp.
+- Last-modified timestamp.
+- Creator or responsible user.
+- Similarity-check result.
+
+## 10.3 Multiple-Choice Quality Rules
+
+For single-answer multiple-choice questions:
+
+- Provide the requested number of options; default to four when configured.
+- Ensure exactly one defensible correct answer unless the selected format explicitly allows multiple correct answers.
+- Use plausible distractors based on realistic misconceptions.
+- Avoid distractors that are obviously absurd.
+- Avoid grammatical cues that reveal the answer.
+- Avoid unnecessary repeated words or phrases across options.
+- Avoid duplicated answer options.
+- Keep options relatively similar in length and grammatical structure where feasible.
+- Do not force identical option lengths when doing so reduces accuracy or clarity.
+- Ensure options are parallel in form whenever appropriate.
+- Avoid overlapping answer choices.
+- Avoid ambiguity and unintended multiple correct answers.
+- Avoid “all of the above” or “none of the above” unless explicitly justified.
+- Avoid trick wording, unnecessary negative phrasing, and irrelevant complexity.
+- Do not allow the correct answer to stand out consistently by being longer, more specific, or stylistically different.
+- Keep the question independent of accidental clues from other questions.
+- Verify the answer key against the question and stimulus.
+- Randomize option order only if the answer-key mapping is updated correctly.
+
+## 10.4 Answer-Key Integrity
+
+For every objective question:
+
+1. Validate that the answer key refers to an existing option or valid response.
+2. Check that the explanation supports the keyed answer.
+3. Verify that the question does not contradict its source stimulus.
+4. Flag potentially ambiguous items.
+5. Identify multiple plausible correct answers when a single answer is required.
+6. Preserve answer-key integrity after option randomization.
+7. Record changes to correct answers in version history.
+
+For open-ended questions, provide scoring criteria rather than inventing a single fixed answer where multiple valid responses exist.
+
+## 10.5 Anti-Repetition Rules Within an Assessment
+
+Check for:
+
+- Repeated question wording.
+- Duplicate stems.
+- Repeated scenarios.
+- Reused answer patterns.
+- Repeated distractors.
+- Repeated tested concepts without a justified reason.
+- Excessive overlap between learning objectives.
+- Repeated source passages.
+- Unintended answer clues between questions.
+
+When repetition is detected, explain the similarity and provide revision options.
+
+Allow intentional repetition for practice, spaced retrieval, or parallel testing when explicitly requested.
+
+---
+
+# PART 11 — STIMULUS MANAGEMENT AND THE 3–5 ITEM LIMIT
+
+## 11.1 Stimulus Library
+
+Support reusable stimuli, including:
+
+- Dialogues.
+- Reading passages.
+- Listening scripts.
+- Audio files.
+- Video clips.
+- Images.
+- Graphs.
+- Tables.
+- Maps.
+- Infographics.
+- Diagrams.
+- Case studies.
+- Data sets.
+- Scientific scenarios.
+- Historical sources.
+- Research extracts.
+- Religious text references.
+
+Every stimulus must have a unique ID and metadata.
+
+## 11.2 Strict Stimulus Limit
+
+Implement the following mandatory rule:
+
+**One shared dialogue, text, passage, case, or stimulus group may support a maximum of five questions. The recommended range is three to five questions when appropriate.**
+
+Rules:
+
+1. One stimulus group may contain 1–5 questions.
+2. When a passage is intended to support multiple questions, recommend 3–5 items if educationally suitable.
+3. Never exceed five linked questions for the same stimulus group.
+4. Count linked questions automatically.
+5. Block attempts to attach a sixth question to that group.
+6. Explain the limit and offer the option to create a new stimulus group.
+7. Do not bypass the limit through duplicate stimulus IDs or hidden links.
+8. Preserve group relationships during editing, importing, copying, and exporting.
+9. Allow a separate group to use the same source material only when permitted and when the new group is clearly identified.
+10. Recheck the limit before final export and publication.
+
+The system must validate the rule at both the interface and server/database level.
+
+## 11.3 Stimulus Quality Checks
+
+Check:
+
+- Relevance to the objective.
+- Appropriate reading or listening complexity.
+- Source integrity.
+- Sufficient information to answer linked questions.
+- Absence of accidental answer leakage.
+- Language accuracy.
+- Copyright and usage considerations.
+- Accessibility.
+- Question count.
+- Whether the stimulus supports the intended cognitive level.
+
+---
+
+# PART 12 — GENERATION HISTORY AND DUPLICATE DETECTION
+
+## 12.1 Generation History
+
+Create a dedicated history center with:
+
+- Date and time.
+- Project.
+- Assessment title.
+- Prompt version.
+- Number of questions generated.
+- Selected objectives.
+- Selected taxonomies.
+- Difficulty distribution.
+- AI provider and model, where available.
+- Generation status.
+- Reviewer status.
+- Export history.
+- Error information where relevant.
+
+Allow users to:
+
+- Search.
+- Filter.
+- Sort.
+- Open a prior generation.
+- Compare versions.
+- Restore a prior version.
+- Duplicate an assessment.
+- Continue a draft.
+- Archive.
+- Delete with confirmation and permission checks.
+
+## 12.2 Duplicate Detection Engine
+
+Use several complementary methods:
+
+1. Exact text matching.
+2. Normalized text matching.
+3. Similarity of question stems.
+4. Similarity of options.
+5. Similarity of answer keys.
+6. Similarity of learning objectives.
+7. Similarity of stimulus content.
+8. Semantic similarity using an appropriately configured model or embedding service.
+9. Similarity across the user's question bank.
+10. Similarity across authorized institutional collections.
+
+Normalize punctuation, spacing, case, and other irrelevant formatting differences before comparison.
+
+## 12.3 Similarity Review
+
+Provide:
+
+- Similarity score.
+- Matched question reference.
+- Highlighted overlapping text.
+- Shared concept or objective.
+- Comparison view.
+- Recommended action.
+- False-positive override.
+- Reviewer decision.
+- Audit history.
+
+Use configurable thresholds rather than treating every similar question as a duplicate.
+
+Do not automatically delete valid questions solely because their topics overlap.
+
+If the semantic similarity service is not configured, retain the exact and normalized text checks and clearly label the reduced capability.
+
+---
+
+# PART 13 — MULTIMEDIA STUDIO
+
+Create a fully integrated **Multimedia Studio** with the following menus.
+
+## 13.1 Image Generator
+
+Allow users to create educational images for:
+
+- Language learning.
+- Science.
+- Mathematics.
+- Social studies.
+- History.
+- Geography.
+- Environmental education.
+- Vocational education.
+- Cultural contexts.
+- Religious education, subject to the rules in Part 15.
+
+Provide controls for:
+
+- Image description.
+- Educational purpose.
+- Target age or level.
+- Style.
+- Composition.
+- Orientation and aspect ratio.
+- Intended display size.
+- Language of visible labels.
+- Accessibility description.
+- Source and rights metadata.
+
+Support generated image previews, version history, saving, and linking to stimuli or questions.
+
+Never display a successful-generation message if the image-generation service is unavailable or the request fails.
+
+## 13.2 Image Upload and Editing
+
+Support uploading images and, where supported, cropping, resizing, rotating, adding annotations, and managing versions.
+
+Preserve the original upload unless the user explicitly requests replacement.
+
+Use secure processing and clearly indicate whether the result is an edited copy or the original.
+
+## 13.3 Graph Generator
+
+Support:
+
+- Bar charts.
+- Line charts.
+- Pie charts.
+- Histograms.
+- Scatter plots.
+- Area charts.
+- Box plots where supported.
+- Combination charts.
+- Comparison charts.
+- Trend charts.
+- Mathematical function graphs.
+- Scientific graphs.
+- Statistical graphs.
+- Experimental data visualization.
+
+Inputs:
+
+- Manual data entry.
+- CSV.
+- Excel.
+- Imported tables.
+- Approved data sources.
+
+Include:
+
+- Chart title.
+- Axis labels.
+- Units.
+- Legend.
+- Data source.
+- Scale settings.
+- Data-validation messages.
+- Alternative text.
+- Linked questions.
+
+Never invent real-world statistics. If synthetic data are generated for practice, label them clearly as simulated.
+
+## 13.4 Diagram Generator
+
+Support:
+
+- Flowcharts.
+- Concept maps.
+- Mind maps.
+- Venn diagrams.
+- Cycle diagrams.
+- Tree diagrams.
+- Cause-and-effect diagrams.
+- Fishbone diagrams.
+- Process diagrams.
+- Classification diagrams.
+- Timelines.
+- Food chains and food webs.
+- Scientific process diagrams.
+- Network diagrams.
+- Organization charts.
+- Sequence diagrams.
+- Technical diagrams where applicable.
+
+Prefer editable structured representations when the target format supports them.
+
+Validate labels, connections, and directional relationships.
+
+## 13.5 Infographic Generator
+
+Support:
+
+- Conceptual infographics.
+- Process infographics.
+- Comparison infographics.
+- Statistical infographics.
+- Timeline infographics.
+- Educational summaries.
+- Geographic infographics.
+- Scientific infographics.
+- Environmental infographics.
+- Language-learning infographics.
+- Cultural and historical infographics.
+- Religious education infographics.
+
+Include:
+
+- Title and subtitle.
+- Content hierarchy.
+- Key facts.
+- Text blocks.
+- Icons.
+- Charts.
+- Source references.
+- Captions.
+- Accessibility descriptions.
+- Export settings.
+
+Check spelling, numbers, units, labels, and source attribution before approval.
+
+## 13.6 Map and Location Studio
+
+Support, where reliable geographic data are available:
+
+- World maps.
+- Continents and countries.
+- Indonesian provinces and regions.
+- Cities and local areas.
+- Thematic maps.
+- Historical maps.
+- Environmental maps.
+- Distribution maps.
+- Route maps.
+- Coordinate-based maps.
+- Geographic data visualization.
+- Location markers and labels.
+
+Include:
+
+- Map title.
+- Legend.
+- Scale.
+- North indicator where appropriate.
+- Source.
+- Date or period represented.
+- Coordinate system where relevant.
+- Layer selection.
+- Markers.
+- Captions.
+- Linked questions.
+
+Do not fabricate boundaries, place names, coordinates, distances, or geographic facts. Clearly mark illustrative maps that are not suitable for navigation or official geographic use.
+
+## 13.7 Table and Data Studio
+
+Generate:
+
+- Comparison tables.
+- Frequency tables.
+- Statistical tables.
+- Observation tables.
+- Experiment tables.
+- Classification tables.
+- Chronological tables.
+- Data summaries.
+- Research tables.
+- Economic and demographic tables.
+- Imported document tables.
+
+Validate headers, rows, units, missing values, and source information.
+
+Preserve table structure in exports wherever possible.
+
+## 13.8 Illustration and Painting Generator
+
+Support appropriate educational visual styles, including:
+
+- Realistic illustrations.
+- Cartoons.
+- Scientific illustrations.
+- Historical illustrations.
+- Editorial illustrations.
+- Watercolor.
+- Pencil and ink drawings.
+- Painting-inspired styles.
+- Abstract artwork.
+- Cultural and environmental scenes.
+- Objects, locations, and fictional characters.
+
+Include style, context, age suitability, image metadata, source/rights notes, and revision history.
+
+Do not misrepresent an AI-generated illustration as a genuine historical photograph or documentary record.
+
+## 13.9 Media Library
+
+Store and organize:
+
+- Images.
+- Graphs.
+- Diagrams.
+- Infographics.
+- Maps.
+- Tables.
+- Illustrations.
+- Paintings.
+- Audio.
+- Video.
+- Captions.
+- Alternative text.
+- Source metadata.
+- Rights information.
+- Version history.
+- Linked stimuli and questions.
+
+Allow authorized reuse while preserving provenance and checking stimulus limits.
+
+---
+
+# PART 14 — UNIVERSAL IMPORT CENTER
+
+## 14.1 Supported File Categories
+
+Build a dedicated **Universal Import Center**.
+
+Support the following formats where the required parser or conversion service is actually implemented.
+
+### Documents
+
+- DOCX.
+- DOC where safe conversion is available.
+- PDF.
+- TXT.
+- RTF.
+- ODT.
+- HTML.
+- Markdown.
+- EPUB where supported.
+
+### Presentations
+
+- PPTX.
+- PPT where safe conversion is available.
+- ODP.
+
+### Spreadsheets
+
+- XLSX.
+- XLS where supported.
+- CSV.
+- ODS.
+
+### Images
+
+- PNG.
+- JPG and JPEG.
+- WEBP.
+- TIFF and BMP where supported.
+- SVG only after secure sanitization.
+
+### Audio
+
+- MP3.
+- WAV.
+- M4A.
+- AAC.
+- OGG where supported.
+
+### Video
+
+- MP4.
+- MOV where supported.
+- WEBM where supported.
+
+### Structured and Geographic Data
+
+- JSON.
+- XML.
+- ZIP archives containing permitted files.
+- GeoJSON where supported.
+- Other safe, explicitly supported structured formats.
+
+Do not advertise a format as supported until the corresponding upload, processing, preview, and error-handling path has been tested.
+
+## 14.2 Import Workflow
+
+Implement the following sequence:
+
+1. Select or drag and drop a file.
+2. Validate the file extension and MIME type.
+3. Enforce configurable size and file-count limits.
+4. Perform security checks.
+5. Create an import job.
+6. Extract text and structural content.
+7. Run OCR when needed and supported.
+8. Extract headings, paragraphs, tables, images, charts, and slides.
+9. Detect existing questions, options, keys, and rubrics.
+10. Identify learning objectives and relevant source references.
+11. Display a preview.
+12. Show extraction warnings and confidence information.
+13. Allow manual corrections.
+14. Map the imported content to learning objectives.
+15. Select generation settings.
+16. Generate candidate questions.
+17. Run quality assurance and duplicate checks.
+18. Save the approved result.
+19. Export the result when requested.
+20. Preserve import provenance and processing history.
+
+## 14.3 Document Understanding Engine
+
+Extract and preserve, when available:
+
+- Paragraphs.
+- Headings.
+- Lists.
+- Tables.
+- Embedded images.
+- Captions.
+- Footnotes.
+- Page references.
+- Slide references.
+- Chart labels and data.
+- Spreadsheet sheets and cell structures.
+- Existing questions.
+- Options.
+- Answer keys.
+- Rubrics.
+- Citations.
+- Bibliography entries.
+
+For scanned PDFs and images, use OCR when configured.
+
+If text or images cannot be reliably extracted, report the limitation and request review. Do not pretend that a complete extraction occurred.
+
+## 14.4 Word and PDF Requirements
+
+For Word documents:
+
+- Preserve editable text.
+- Preserve paragraph and heading structure.
+- Preserve tables where feasible.
+- Preserve images and captions where supported.
+- Do not create a Word document that consists only of screenshots of the original pages unless the user explicitly requests image-based reproduction.
+
+For PDF documents:
+
+- Extract digital text when available.
+- Use OCR for scanned pages when configured.
+- Preserve page references.
+- Identify extraction errors.
+- Distinguish embedded images from extracted text.
+- Allow page-level review.
+
+## 14.5 PowerPoint Requirements
+
+For PPT and PPTX:
+
+- Extract slide titles and text.
+- Preserve slide order.
+- Extract speaker notes where supported.
+- Detect embedded images and diagrams.
+- Extract chart data where available.
+- Maintain slide references.
+- Display a slide-level preview.
+- Flag unsupported embedded objects.
+
+## 14.6 Excel and CSV Requirements
+
+For spreadsheets:
+
+- Identify worksheets.
+- Preserve headers and row relationships.
+- Detect numeric and date columns.
+- Identify units and missing values.
+- Display a preview.
+- Allow selection of relevant sheets and ranges.
+- Generate charts from selected data.
+- Generate questions from tables and data.
+- Preserve source-sheet references.
+
+## 14.7 Import Security
+
+Implement:
+
+- Extension and MIME validation.
+- File size and quantity limits.
+- Secure temporary storage.
+- Malware scanning where available.
+- Safe archive extraction.
+- Path traversal protection.
+- Sanitization of SVG and HTML.
+- No automatic execution of macros or embedded scripts.
+- Sandboxed parsing where feasible.
+- Access-controlled downloads.
+- Configurable retention and deletion policies.
+- Import audit logs.
+
+Do not rely solely on file extensions for security decisions.
+
+---
+
+# PART 15 — QUR'AN AND HADITH REFERENCE STUDIO
+
+Create a specialized **Religious Text & Reference Studio**.
+
+## 15.1 Supported Features
+
+Allow users to:
+
+- Search Qur'anic verses.
+- Search Hadith.
+- Display Arabic text.
+- Display translations.
+- Display transliteration separately.
+- Record surah and verse numbers.
+- Record Hadith collection and reference identifiers where available.
+- Record narrator and authenticity grading only when supported by a reliable source.
+- Add verified references to a stimulus.
+- Generate educational questions based on reviewed text.
+- Create tables, diagrams, and infographics about religious education.
+- Compare translations or interpretations when properly sourced.
+- Export religious educational materials.
+
+## 15.2 Source Integrity
+
+Mandatory rules:
+
+1. Never fabricate Qur'anic verses.
+2. Never fabricate Hadith text, collection names, numbering, narrators, chains of transmission, or authenticity classifications.
+3. Use reliable, traceable digital sources or user-provided verified references.
+4. Preserve Arabic Unicode text, spelling, diacritics, and punctuation as provided by the source.
+5. Separate Arabic source text, transliteration, translation, interpretation, and AI-generated commentary.
+6. Identify the translator, publisher, edition, or source where available.
+7. Display source references alongside the relevant content.
+8. Flag incomplete or unverified references.
+9. Require human review before publication or high-stakes assessment use.
+10. Keep a record of source and verification status.
+
+Do not use image generation to reproduce sacred Arabic text that requires exact orthography. Render the verified digital text using appropriate fonts and text-layout technology.
+
+AI-generated religious commentary must not be presented as a quotation from the Qur'an, Hadith, or a recognized scholar.
+
+## 15.3 Religious Assessment Generation
+
+Allow users to generate:
+
+- Comprehension questions.
+- Vocabulary and terminology questions.
+- Contextual understanding questions.
+- Source-based analysis questions.
+- Reflection prompts.
+- Comparative interpretation tasks when appropriate.
+- Structured short-answer questions.
+- Rubrics for written responses.
+
+Ensure that the question accurately reflects the cited source and that the expected answer does not exceed what the source can support.
+
+---
+
+# PART 16 — RUBRIC, SCORING, AND ANSWER-KEY STUDIO
+
+## 16.1 Rubric Generator
+
+Support analytic and holistic rubrics for:
+
+- Writing.
+- Speaking.
+- Listening.
+- Reading.
+- Presentations.
+- Projects.
+- Portfolios.
+- Practical work.
+- Research.
+- Performance.
+- Laboratory activities.
+- Vocational competencies.
+- Creative products.
+- Group work.
+
+## 16.2 Rubric Components
+
+Include:
+
+- Criterion.
+- Weight.
+- Performance levels.
+- Descriptor for each level.
+- Maximum score.
+- Minimum score.
+- Feedback field.
+- Total score.
+- Scoring instructions.
+- Objective linkage.
+- Taxonomy linkage.
+
+Allow users to define scoring scales such as 1–4, 1–5, 0–100, or custom scales.
+
+Validate weights and total scores.
+
+## 16.3 Answer-Key Studio
+
+Provide:
+
+- Correct answer.
+- Explanation.
+- Evidence from the stimulus.
+- Explanation of incorrect options.
+- Common misconceptions.
+- Scoring criteria.
+- Acceptable alternative answers.
+- Partial-credit rules.
+- Source references.
+- Reviewer status.
+
+Provide separate export controls for questions and answer keys.
+
+---
+
+# PART 17 — QUALITY ASSURANCE AND VALIDATION ENGINE
+
+Create a dedicated Quality Assurance Center.
+
+## 17.1 Automated Checks
+
+Check each assessment for:
+
+- Missing required metadata.
+- Incomplete learning objectives.
+- Unmapped questions.
+- Question count mismatch.
+- Invalid option counts.
+- Missing or invalid answer keys.
+- Duplicate options.
+- Potentially ambiguous questions.
+- Repeated question wording.
+- Unbalanced option lengths.
+- Grammar and spelling issues.
+- Inappropriate vocabulary for the target level.
+- Inconsistent scoring.
+- Bloom/SOLO mapping concerns.
+- Stimulus limit violations.
+- Broken source references.
+- Missing citations.
+- Unreadable media.
+- Data inconsistencies.
+- Export compatibility.
+- Accessibility issues.
+
+## 17.2 Review Statuses
+
+Use the following statuses:
+
+- Draft.
+- AI Generated.
+- Automated Checks Passed.
+- Needs Revision.
+- Awaiting Human Review.
+- Human Reviewed.
+- Approved.
+- Rejected.
+- Archived.
+
+Do not label a question “Human Reviewed” unless a human reviewer actually reviewed it.
+
+Automated checks and expert review must be reported separately.
+
+## 17.3 Quality Report
+
+Generate a report containing:
+
+- Total questions.
+- Questions passing automated checks.
+- Questions with warnings.
+- Questions requiring human review.
+- Duplicate candidates.
+- Unverified sources.
+- Taxonomy mapping concerns.
+- Stimulus-limit status.
+- Scoring consistency.
+- Export readiness.
+- Recommended revisions.
+
+Allow reviewers to open the exact item associated with each warning.
+
+---
+
+# PART 18 — EXPORT CENTER
+
+Create a dedicated Export Center.
+
+## 18.1 Supported Export Formats
+
+Implement:
+
+- TXT.
+- DOCX — genuinely editable Microsoft Word document.
+- PDF.
+- XLSX — editable Microsoft Excel workbook.
+- CSV where appropriate.
+- PPTX where a presentation export engine is implemented.
+- JSON for structured interchange where useful.
+
+## 18.2 Export Selection
+
+Allow users to export:
+
+- Entire assessment.
+- Selected questions.
+- Questions without answer keys.
+- Answer keys only.
+- Questions with explanations.
+- Blueprint or kisi-kisi.
+- Rubrics.
+- Scoring sheets.
+- Multimedia references.
+- Source and citation lists.
+- Quality assurance report.
+- Import report.
+- Complete assessment package.
+
+## 18.3 DOCX Export
+
+Produce a genuine editable Word document.
+
+Requirements:
+
+- Editable text.
+- Professional page layout.
+- Proper headings.
+- Automatic numbering where practical.
+- Consistent fonts and spacing.
+- Editable tables.
+- Embedded images where supported.
+- Captions and source references.
+- Page numbering.
+- Separate answer-key section when selected.
+- Correct Arabic text rendering where applicable.
+
+Do not save the entire assessment as a single image inside Word.
+
+## 18.4 PDF Export
+
+Requirements:
+
+- Print-ready layout.
+- Correct page breaks.
+- Readable typography.
+- No clipped text.
+- No broken tables.
+- Embedded or supported fonts.
+- Correct image placement.
+- Correct page numbering.
+- Correct Arabic text rendering where applicable.
+- Appropriate margins.
+
+## 18.5 XLSX Export
+
+Include suitable worksheets, such as:
+
+- Assessment Metadata.
+- Blueprint.
+- Questions.
+- Options.
+- Answer Keys.
+- Explanations.
+- Rubrics.
+- Scoring.
+- Sources.
+- Multimedia References.
+- QA Report.
+
+Use stable IDs to preserve relationships across worksheets.
+
+## 18.6 Export Validation
+
+Before presenting an export as successful:
+
+1. Confirm the export job completed.
+2. Confirm the output file exists.
+3. Validate the file type.
+4. Check that the file is nonempty.
+5. Confirm that required sections are present.
+6. Check that media and references are included when requested.
+7. Provide a real download link or authenticated file reference.
+8. Record the export in the history.
+
+If a format cannot preserve a particular media element, explain the limitation and provide a useful alternative.
+
+---
+
+# PART 19 — DATABASE AND DATA MODEL
+
+Use a relational data model with stable IDs, timestamps, ownership, and version tracking.
+
+Recommended entities:
+
+1. users
+2. profiles
+3. organizations
+4. organization_members
+5. roles
+6. permissions
+7. workspaces
+8. projects
+9. assessments
+10. assessment_versions
+11. curriculum_profiles
+12. curriculum_sources
+13. standards
+14. learning_objectives
+15. objective_versions
+16. blueprints
+17. blueprint_items
+18. stimuli
+19. stimulus_versions
+20. questions
+21. question_versions
+22. question_options
+23. answer_keys
+24. explanations
+25. distractor_rationales
+26. rubrics
+27. rubric_criteria
+28. rubric_descriptors
+29. scoring_schemes
+30. media_assets
+31. media_versions
+32. media_sources
+33. media_question_links
+34. import_jobs
+35. import_files
+36. extracted_content
+37. extraction_warnings
+38. generation_jobs
+39. generation_history
+40. prompt_templates
+41. prompt_versions
+42. similarity_matches
+43. validation_results
+44. review_comments
+45. approval_records
+46. export_jobs
+47. export_files
+48. assessment_responses, when response collection is enabled
+49. analytics_records
+50. ai_provider_configs
+51. usage_records
+52. audit_logs
+53. user_preferences
+54. retention_policies
+
+Implement appropriate foreign keys, unique constraints, indexes, access policies, and deletion behavior.
+
+Do not store unnecessary personal data. Define retention and deletion policies for uploaded files, temporary extraction data, and generated artifacts.
+
+---
+
+# PART 20 — RECOMMENDED TECHNOLOGY ARCHITECTURE
+
+Select a maintainable technology stack and document the final choices.
+
+A suitable default architecture is:
+
+## Frontend
+
+- React.
+- TypeScript.
+- Next.js or an equivalent supported framework.
+- Accessible component system.
+- Responsive design.
+- Server-state and form-validation tooling.
+- Internationalization support.
+- Light/Dark theme system.
+
+## Backend
+
+- Secure server-side application routes or backend services.
+- PostgreSQL.
+- Supabase or an equivalent managed database/authentication platform.
+- Row-Level Security where supported.
+- Object storage for uploaded files and generated media.
+- Background jobs for large imports, OCR, generation, and exports.
+
+## AI Services
+
+- Configurable language-model provider adapters.
+- Image-generation provider adapters.
+- OCR and document parsing.
+- Embedding or semantic similarity service where configured.
+- Speech-to-text and media processing where enabled.
+
+## Export and Document Processing
+
+- DOCX generation library.
+- PDF generation engine.
+- XLSX generation library.
+- CSV and TXT generation.
+- Document conversion tools where safely available.
+
+## Deployment
+
+- Environment-based configuration.
+- Secure secrets management.
+- Database migrations.
+- Automated tests.
+- CI/CD pipeline.
+- Monitoring and error reporting.
+- Backups and recovery procedures.
+- Deployment documentation.
+
+Do not assume that all services are available in every deployment environment. Select compatible libraries, verify installation, and document required external services.
+
+---
+
+# PART 21 — SECURITY, PRIVACY, AND ACCESS CONTROL
+
+## 21.1 Authentication
+
+Support appropriate authentication mechanisms, including:
+
+- Email and password.
+- Password reset.
+- Email verification.
+- Session management.
+- Optional institutional single sign-on.
+- Multi-factor authentication where configured.
+
+## 21.2 Roles
+
+Provide configurable roles:
+
+- Super Administrator.
+- Organization Administrator.
+- Assessment Manager.
+- Curriculum Specialist.
+- Teacher or Lecturer.
+- Reviewer.
+- Content Editor.
+- Read-Only User.
+
+Use least-privilege access.
+
+## 21.3 Security Requirements
+
+Implement:
+
+- Server-side authorization.
+- Row-level data access controls where supported.
+- Secure session handling.
+- Rate limiting.
+- Input validation.
+- Output encoding.
+- CSRF protection where applicable.
+- Protection against injection attacks.
+- Secure file handling.
+- Secret management.
+- Audit logs.
+- Backup and recovery.
+- Error redaction.
+- Configurable data retention.
+- Secure deletion procedures.
+
+Never expose privileged database keys or AI API keys in browser code.
+
+## 21.4 Log Out
+
+Implement a working Log Out menu item that:
+
+1. Ends the authenticated session.
+2. Clears relevant client-side session state.
+3. Redirects the user to the configured login or public page.
+4. Prevents access to protected pages without a valid session.
+5. Provides an appropriate confirmation or notification.
+
+Do not implement Log Out as a decorative button.
+
+---
+
+# PART 22 — ENTERPRISE COLLABORATION
+
+Where the deployment requires institutional use, support:
+
+- Organization workspaces.
+- Shared assessment projects.
+- Reviewer assignments.
+- Commenting.
+- Approval workflows.
+- Version comparisons.
+- Ownership transfer with permission checks.
+- Audit history.
+- Organization-level templates.
+- Shared verified curriculum references.
+- Shared question banks.
+- Institution-specific branding.
+- Organization usage reports.
+
+Prevent users from accessing another organization’s private content without explicit authorization.
+
+---
+
+# PART 23 — ANALYTICS AND ITEM REVIEW
+
+When response data are available and collection is authorized, support:
+
+- Item response counts.
+- Correct-response rate.
+- Difficulty estimates from actual responses.
+- Distractor selection patterns.
+- Item discrimination indicators where statistically appropriate.
+- Missing-response rates.
+- Assessment completion.
+- Objective-level performance.
+- Taxonomy-level summaries.
+- Rubric score distributions.
+- Comparison across assessment versions.
+
+Clearly distinguish:
+
+1. Estimated difficulty assigned by a question author or AI.
+2. Empirically observed difficulty derived from student responses.
+
+Do not label an item as empirically validated without adequate response data and appropriate analysis.
+
+Include privacy controls and suppress potentially identifying reports when necessary.
+
+---
+
+# PART 24 — APPLICATION SETTINGS
+
+Create a settings center with:
+
+- UI language.
+- Content language defaults.
+- Theme.
+- Font and accessibility preferences.
+- Default educational level.
+- Default curriculum.
+- Default question count.
+- Default option count.
+- Default difficulty distribution.
+- Default taxonomy distribution.
+- Default stimulus limit.
+- Preferred export format.
+- AI provider settings.
+- Source verification preferences.
+- Notification preferences.
+- Data retention preferences.
+- Account and security settings.
+- Organization settings, where authorized.
+
+Provide a Reset to Defaults option with confirmation.
+
+---
+
+# PART 25 — ERROR HANDLING AND RELIABILITY
+
+Every major operation must have:
+
+- Input validation.
+- Loading state.
+- Success state.
+- Failure state.
+- Actionable error message.
+- Retry option where safe.
+- Cancellation where feasible.
+- Logging.
+- Recovery behavior.
+
+Handle:
+
+- AI provider failures.
+- Network interruptions.
+- Invalid AI output.
+- Database errors.
+- File-processing failures.
+- OCR errors.
+- Unsupported file types.
+- Export failures.
+- Permission errors.
+- Duplicate-generation requests.
+- Interrupted background jobs.
+- Expired sessions.
+
+Use idempotency controls for operations that might be repeated after a timeout.
+
+Prevent duplicate database records when a user retries a generation or export that has already completed.
+
+Never display false success messages.
+
+---
+
+# PART 26 — TESTING AND ACCEPTANCE CRITERIA
+
+Create automated unit, integration, security, and end-to-end tests.
+
+## 26.1 Authentication Tests
+
+Verify:
+
+- Registration and login where enabled.
+- Session persistence.
+- Password reset where enabled.
+- Logout.
+- Protected-route access.
+- Role permissions.
+- Cross-organization isolation.
+
+## 26.2 Question Generation Tests
+
+Verify:
+
+- Question count matches the requested count.
+- Question types match the blueprint.
+- Correct-answer mapping remains valid.
+- Required explanations are present.
+- Taxonomy metadata are saved.
+- Learning-objective links are valid.
+- Invalid structured AI output is rejected or recovered safely.
+- Generation failures are reported accurately.
+
+## 26.3 Stimulus Tests
+
+Verify:
+
+- A stimulus group can have up to five linked questions.
+- A sixth linked question is blocked.
+- The rule is enforced on the server, not only in the interface.
+- Imported, copied, and regenerated questions preserve stimulus relationships.
+- Separate groups remain correctly identified.
+
+## 26.4 Duplicate Detection Tests
+
+Verify:
+
+- Exact duplicates are detected.
+- Normalized duplicates are detected.
+- Similarity warnings include useful references.
+- False positives can be reviewed.
+- Similarity service failure does not corrupt question records.
+
+## 26.5 Import Tests
+
+Test representative files from every advertised supported category.
+
+Verify:
+
+- Upload validation.
+- Text extraction.
+- OCR where configured.
+- Table extraction.
+- Slide extraction.
+- Image handling.
+- Spreadsheet parsing.
+- Preview and correction.
+- Source traceability.
+- Unsupported-file errors.
+- Secure temporary-file handling.
+
+## 26.6 Multimedia Tests
+
+Verify:
+
+- Images are saved and linked correctly.
+- Graphs reflect their source data.
+- Diagrams preserve their structure where supported.
+- Infographics include their intended content and references.
+- Maps use traceable geographic sources.
+- Table data are preserved.
+- Generated media have metadata.
+- Religious source records remain traceable and unaltered.
+
+## 26.7 Export Tests
+
+Verify:
+
+- TXT output contains the selected content.
+- DOCX is editable.
+- PDF is readable and properly paginated.
+- XLSX worksheets contain the expected data.
+- Answer keys are correctly included or excluded.
+- Media references are preserved.
+- Export files are valid and nonempty.
+- Download permissions work.
+- Failed exports are reported accurately.
+
+## 26.8 Interface Tests
+
+Verify:
+
+- Left sidebar navigation.
+- Indonesian/English switching.
+- Light/Dark theme switching.
+- Responsive layouts.
+- Search and filtering.
+- Forms and validation.
+- Modals and confirmations.
+- Keyboard accessibility.
+- Logout.
+- Loading and error states.
+
+## 26.9 Definition of Done
+
+A feature is complete only when:
+
+1. Its interface is implemented.
+2. Its backend or processing logic is implemented.
+3. Its data model is connected where required.
+4. Its permissions are enforced.
+5. Its success and failure states work.
+6. Its tests pass.
+7. Its documentation is updated.
+8. Its limitations are disclosed.
+9. It does not falsely report completion.
+
+Do not claim “100% error-free” or “guaranteed to work without any problems.” Instead, report test results, known limitations, and the conditions under which the application has been verified.
+
+---
+
+# PART 27 — IMPLEMENTATION ROADMAP
+
+Build the application in controlled phases.
+
+## Phase 1 — Foundation
+
+Implement:
+
+- Project structure.
+- Design system.
+- Authentication.
+- User roles.
+- Left sidebar.
+- Language switching.
+- Theme switching.
+- Dashboard.
+- Database schema.
+- Workspace and project management.
+- Basic question and stimulus storage.
+
+**Deliverable:** A functional application foundation with secure navigation and persistent data.
+
+## Phase 2 — Assessment and Prompt Engine
+
+Implement:
+
+- Assessment wizard.
+- Curriculum and learning-objective management.
+- Generate AI Poin.
+- Blueprint builder.
+- Bloom and SOLO selectors.
+- Difficulty and LOTS/HOTS controls.
+- Prompt generator.
+- Question generator integration.
+- Answer keys and explanations.
+- Distractor validation.
+
+**Deliverable:** An end-to-end assessment generation workflow.
+
+## Phase 3 — History and Quality Assurance
+
+Implement:
+
+- Generation history.
+- Question versioning.
+- Duplicate detection.
+- Stimulus grouping and five-question limit.
+- QA dashboard.
+- Reviewer workflow.
+- Scoring and rubrics.
+- Audit logs.
+
+**Deliverable:** A controlled and reviewable question-generation process.
+
+## Phase 4 — Universal Import and Multimedia
+
+Implement:
+
+- Universal Import Center.
+- Document extraction.
+- OCR where configured.
+- Word, PDF, PowerPoint, spreadsheet, image, and text workflows.
+- Multimedia Studio.
+- Graph and diagram generation.
+- Infographics.
+- Maps and location resources.
+- Table and data visualization.
+- Illustration and painting generation.
+- Qur'an and Hadith Reference Studio.
+
+**Deliverable:** A multimedia-aware assessment platform with verified import and processing capabilities.
+
+## Phase 5 — Export and Enterprise Features
+
+Implement:
+
+- TXT export.
+- Editable DOCX export.
+- PDF export.
+- XLSX export.
+- Optional PPTX export.
+- Collaboration.
+- Approval workflows.
+- Analytics.
+- Usage tracking.
+- Institutional settings.
+- Backup and recovery documentation.
+
+**Deliverable:** An enterprise-ready assessment workflow with functional exports.
+
+## Phase 6 — Verification and Deployment
+
+Perform:
+
+- Automated testing.
+- End-to-end testing.
+- Security review.
+- Accessibility review.
+- Performance checks.
+- Export validation.
+- Import validation.
+- Deployment configuration.
+- User acceptance testing.
+- Technical documentation.
+
+**Deliverable:** A deployable application with test evidence and documented limitations.
+
+---
+
+# PART 28 — REQUIRED DEVELOPMENT DELIVERABLES
+
+Provide the following deliverables:
+
+1. Complete source code.
+2. Application architecture.
+3. Database schema and migrations.
+4. Authentication and authorization implementation.
+5. Frontend components and backend services.
+6. AI provider integration adapters.
+7. Prompt-generation templates.
+8. Question-generation and validation logic.
+9. Duplicate detection implementation.
+10. Stimulus-management implementation.
+11. Multimedia processing modules.
+12. File import and extraction modules.
+13. Export generation modules.
+14. Test suites.
+15. Environment-variable example file without real secrets.
+16. Installation instructions.
+17. Database setup instructions.
+18. AI provider configuration instructions.
+19. Deployment guide.
+20. User guide.
+21. Administrator guide.
+22. Security and data-retention documentation.
+23. Known limitations and unsupported features.
+24. Test report.
+25. Sample data clearly labeled as demonstration data.
+
+If the development environment supports creating downloadable project files, package the actual source files and documentation. Do not present a written specification as if it were an already deployed application.
+
+---
+
+# PART 29 — FINAL AI DEVELOPMENT INSTRUCTIONS
+
+Before writing code:
+
+1. Analyze the full specification.
+2. Identify dependencies and external services.
+3. Define the architecture and data model.
+4. Separate mandatory features from optional extensions.
+5. Identify security, privacy, and curriculum-verification risks.
+6. Define implementation milestones and acceptance tests.
+
+During development:
+
+1. Build reusable modules.
+2. Use typed data structures.
+3. Validate all user inputs.
+4. Keep API secrets server-side.
+5. Use persistent storage for saved content.
+6. Implement loading and error states.
+7. Maintain data relationships.
+8. Validate AI output before persistence.
+9. Test the five-question stimulus limit.
+10. Test anti-duplication workflows.
+11. Verify imports and exports using real files.
+12. Avoid unnecessary dependencies and unmaintainable code.
+13. Keep the interface responsive and accessible.
+14. Maintain documentation as features are completed.
+
+Before final delivery:
+
+1. Run the available automated test suites.
+2. Test critical end-to-end user journeys.
+3. Verify authentication and authorization.
+4. Verify that the interface language and theme controls work.
+5. Verify question generation and answer-key integrity.
+6. Verify the stimulus limit.
+7. Verify history and duplicate detection.
+8. Verify import and export functionality.
+9. Verify source integrity for religious references.
+10. Review the error states.
+11. Document all failed tests and limitations.
+12. Provide deployment and maintenance instructions.
+
+If an external API key, provider account, OCR engine, database credential, or other dependency is missing, identify the dependency and provide the required setup instructions. Continue implementing independent functionality wherever possible.
+
+Do not replace real backend functionality with static mock data unless explicitly labeling it as a prototype or demonstration.
+
+# FINAL SUCCESS CRITERIA
+
+EDUQUEST AI — Enterprise Assessment Studio must be designed as a unified, intelligent, modular, and extensible educational assessment platform.
+
+It must combine:
+
+- Universal educational-level and subject support.
+- National and international curriculum configuration.
+- Deep Learning and appropriate CINTA/ecotheology integration.
+- Bloom and SOLO taxonomy mapping.
+- LOTS/HOTS and difficulty classification.
+- Comprehensive question formats.
+- High-quality distractors and answer keys.
+- A maximum of five questions per stimulus group.
+- Generation history and duplicate detection.
+- AI prompt generation.
+- Multimedia generation and management.
+- Qur'an and Hadith source integrity.
+- Universal document import and content extraction.
+- Editable TXT, DOCX, PDF, and XLSX outputs.
+- Security, access control, and auditability.
+- Responsive, accessible, bilingual, Light/Dark UI.
+- Testing, documentation, and deployable source code.
+
+**Application title:** EDUQUEST AI — Enterprise Assessment Studio  
+**Application creator:** Ahmad Budi Leksono  
+**Primary objective:** Build a genuinely functional, verifiable, secure, professional, and extensible AI-powered assessment platform—not merely an attractive visual prototype.
+
+**END OF MASTERPIECE MASTER PROMPT**
+https://leksonofairus-web.github.io/EDUQUEST-AI-Assessment-Builder/
+
